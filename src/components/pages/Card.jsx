@@ -1,11 +1,11 @@
 import React from 'react'
 
-export const Card = () => {
+export const Card = ({srs}) => {
   return (
     <div>
       <div class='card'>
         <div class='card-image waves-effect waves-block waves-light'>
-          <img class='activator' src='images/office.jpg' alt='alt' />
+          <img class='activator' src={srs} alt='alt' />
         </div>
         <div class='card-content'>
           <span class='card-title activator grey-text text-darken-4'>
