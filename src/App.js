@@ -7,9 +7,11 @@ function App() {
   return (
     <div>
       <Header />
+      <div className='main' >
         <Routes>
-          <Route path='/' element={<Main/>} />
+          <Route path='/' element={<Main />} />
         </Routes>
+      </div>
       <Footer />
     </div>
   )
