@@ -20,6 +20,7 @@ export const Main = () => {
     madal1: false,
     madal2: false
   })
+  
   const Fotogal = () => {
     return (
       <div className='grid' onClick={() => setModal({...modal, madal2: true})}>
